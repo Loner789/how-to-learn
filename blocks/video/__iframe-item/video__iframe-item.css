@@ -1,0 +1,11 @@
+.video__iframe-item {
+    padding: 50px 20px 0 0;
+}
+
+.video__iframe-item:nth-of-type(even) {
+    padding-right: 0;
+}
+
+.video__iframe-item:nth-last-of-type(-n+2) {
+    margin-bottom: -60px;
+}
